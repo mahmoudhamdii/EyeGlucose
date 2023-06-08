@@ -41,7 +41,7 @@ class ONBoardingViewController: UIViewController {
             onBoardingCollectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
             pageControl.currentPage = currentPage
         }else {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "LoginViewController")
+            let vc = storyboard?.instantiateViewController(withIdentifier: "LoginNC")
             present(vc!, animated: true,completion: nil)
         }
     }

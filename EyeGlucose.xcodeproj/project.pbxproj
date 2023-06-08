@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3616C09B2A278CF6006B6C1B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616C09A2A278CF6006B6C1B /* LoginViewController.swift */; };
+		367E620C2A2970F900049BC3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E620B2A2970F900049BC3 /* Validator.swift */; };
 		369491192A26F5A7006E5EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369491182A26F5A7006E5EC5 /* AppDelegate.swift */; };
 		3694911B2A26F5A7006E5EC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694911A2A26F5A7006E5EC5 /* SceneDelegate.swift */; };
 		369491202A26F5A7006E5EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3694911E2A26F5A7006E5EC5 /* Main.storyboard */; };
@@ -16,10 +17,17 @@
 		3694912F2A271057006E5EC5 /* ONBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694912E2A271057006E5EC5 /* ONBoardingViewController.swift */; };
 		369491342A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369491332A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift */; };
 		369491372A274D37006E5EC5 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369491362A274D37006E5EC5 /* OnboardingSlide.swift */; };
+		36A928142A2CF10C009FEC92 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A928132A2CF10C009FEC92 /* AlertHelper.swift */; };
+		36C29EFE2A2F55C50070A899 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C29EFD2A2F55C50070A899 /* SignupViewController.swift */; };
+		36CABDD42A284FCE006814AA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CABDD32A284FCE006814AA /* UIView+Extensions.swift */; };
+		36CABDD62A285013006814AA /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CABDD52A285013006814AA /* UIButton+Extensions.swift */; };
+		36CABDDF2A285849006814AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CABDDE2A285849006814AA /* HomeViewController.swift */; };
+		36DDF5DF2A2F8242009A4577 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDF5DE2A2F8242009A4577 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3616C09A2A278CF6006B6C1B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		367E620B2A2970F900049BC3 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		369491152A26F5A7006E5EC5 /* EyeGlucose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeGlucose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369491182A26F5A7006E5EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3694911A2A26F5A7006E5EC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +38,12 @@
 		3694912E2A271057006E5EC5 /* ONBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONBoardingViewController.swift; sourceTree = "<group>"; };
 		369491332A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		369491362A274D37006E5EC5 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		36A928132A2CF10C009FEC92 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		36C29EFD2A2F55C50070A899 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		36CABDD32A284FCE006814AA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		36CABDD52A285013006814AA /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		36CABDDE2A285849006814AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		36DDF5DE2A2F8242009A4577 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +84,9 @@
 		369491172A26F5A7006E5EC5 /* EyeGlucose */ = {
 			isa = PBXGroup;
 			children = (
-				369491302A2711DE006E5EC5 /* CustomViews */,
-				3694912C2A27101F006E5EC5 /* Views */,
+				36CABDD22A284EE1006814AA /* Extensions */,
+				369491302A2711DE006E5EC5 /* Views */,
+				3694912C2A27101F006E5EC5 /* Controller  */,
 				369491352A274D00006E5EC5 /* Moudels */,
 				369491182A26F5A7006E5EC5 /* AppDelegate.swift */,
 				3694911A2A26F5A7006E5EC5 /* SceneDelegate.swift */,
@@ -83,13 +98,15 @@
 			path = EyeGlucose;
 			sourceTree = "<group>";
 		};
-		3694912C2A27101F006E5EC5 /* Views */ = {
+		3694912C2A27101F006E5EC5 /* Controller  */ = {
 			isa = PBXGroup;
 			children = (
-				3616C0992A278CDC006B6C1B /* Login */,
+				36A928122A2CF0F4009FEC92 /* Alert Controller */,
+				36CABDDD2A285838006814AA /* Home */,
+				36CABDD82A2851E2006814AA /* Authorization */,
 				3694912D2A271031006E5EC5 /* ONBoarding */,
 			);
-			path = Views;
+			path = "Controller ";
 			sourceTree = "<group>";
 		};
 		3694912D2A271031006E5EC5 /* ONBoarding */ = {
@@ -100,12 +117,12 @@
 			path = ONBoarding;
 			sourceTree = "<group>";
 		};
-		369491302A2711DE006E5EC5 /* CustomViews */ = {
+		369491302A2711DE006E5EC5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				369491312A2711ED006E5EC5 /* CollectionViews */,
 			);
-			path = CustomViews;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		369491312A2711ED006E5EC5 /* CollectionViews */ = {
@@ -127,9 +144,53 @@
 		369491352A274D00006E5EC5 /* Moudels */ = {
 			isa = PBXGroup;
 			children = (
+				367E620B2A2970F900049BC3 /* Validator.swift */,
 				369491362A274D37006E5EC5 /* OnboardingSlide.swift */,
 			);
 			path = Moudels;
+			sourceTree = "<group>";
+		};
+		36A928122A2CF0F4009FEC92 /* Alert Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36A928132A2CF10C009FEC92 /* AlertHelper.swift */,
+			);
+			path = "Alert Controller";
+			sourceTree = "<group>";
+		};
+		36CABDD22A284EE1006814AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36CABDD32A284FCE006814AA /* UIView+Extensions.swift */,
+				36CABDD52A285013006814AA /* UIButton+Extensions.swift */,
+				36DDF5DE2A2F8242009A4577 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		36CABDD72A2851CE006814AA /* Sign up  */ = {
+			isa = PBXGroup;
+			children = (
+				36C29EFD2A2F55C50070A899 /* SignupViewController.swift */,
+			);
+			path = "Sign up ";
+			sourceTree = "<group>";
+		};
+		36CABDD82A2851E2006814AA /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				3616C0992A278CDC006B6C1B /* Login */,
+				36CABDD72A2851CE006814AA /* Sign up  */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		36CABDDD2A285838006814AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36CABDDE2A285849006814AA /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +264,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A928142A2CF10C009FEC92 /* AlertHelper.swift in Sources */,
+				36DDF5DF2A2F8242009A4577 /* UIViewController+Extension.swift in Sources */,
+				36CABDD42A284FCE006814AA /* UIView+Extensions.swift in Sources */,
+				36CABDD62A285013006814AA /* UIButton+Extensions.swift in Sources */,
 				3616C09B2A278CF6006B6C1B /* LoginViewController.swift in Sources */,
 				369491372A274D37006E5EC5 /* OnboardingSlide.swift in Sources */,
 				369491192A26F5A7006E5EC5 /* AppDelegate.swift in Sources */,
+				36C29EFE2A2F55C50070A899 /* SignupViewController.swift in Sources */,
+				367E620C2A2970F900049BC3 /* Validator.swift in Sources */,
+				36CABDDF2A285849006814AA /* HomeViewController.swift in Sources */,
 				3694911B2A26F5A7006E5EC5 /* SceneDelegate.swift in Sources */,
 				3694912F2A271057006E5EC5 /* ONBoardingViewController.swift in Sources */,
 				369491342A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift in Sources */,
