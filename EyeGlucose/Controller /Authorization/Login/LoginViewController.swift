@@ -18,8 +18,9 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btnSignupAction(_ sender: Any) {
-        let controller = SignupViewController.instantiate()
-        navigationController?.pushViewController(controller, animated: true)
+        let controller = storyboard?.instantiateViewController(withIdentifier: "HomeBar")
+        controller?.hidesBottomBarWhenPushed = false
+        navigationController?.pushViewController(controller!, animated: true)
     }
     
     

@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3616C09B2A278CF6006B6C1B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616C09A2A278CF6006B6C1B /* LoginViewController.swift */; };
+		361B8BD52A4743BB0060F4AB /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B8BD42A4743BB0060F4AB /* Animate.swift */; };
 		367E620C2A2970F900049BC3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E620B2A2970F900049BC3 /* Validator.swift */; };
+		3693340F2A534687008CADB2 /* DiabetesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693340E2A534687008CADB2 /* DiabetesViewController.swift */; };
 		369491192A26F5A7006E5EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369491182A26F5A7006E5EC5 /* AppDelegate.swift */; };
 		3694911B2A26F5A7006E5EC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694911A2A26F5A7006E5EC5 /* SceneDelegate.swift */; };
 		369491202A26F5A7006E5EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3694911E2A26F5A7006E5EC5 /* Main.storyboard */; };
@@ -17,6 +19,10 @@
 		3694912F2A271057006E5EC5 /* ONBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694912E2A271057006E5EC5 /* ONBoardingViewController.swift */; };
 		369491342A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369491332A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift */; };
 		369491372A274D37006E5EC5 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369491362A274D37006E5EC5 /* OnboardingSlide.swift */; };
+		3698FE902A53CD4D008ECC18 /* BMI_Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698FE8F2A53CD4D008ECC18 /* BMI_Brain.swift */; };
+		3698FE922A53CD7F008ECC18 /* bmi_category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698FE912A53CD7F008ECC18 /* bmi_category.swift */; };
+		3698FE942A53CDCF008ECC18 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698FE932A53CDCF008ECC18 /* BMIViewController.swift */; };
+		3698FE962A53CE31008ECC18 /* BMIResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698FE952A53CE31008ECC18 /* BMIResultViewController.swift */; };
 		36A928142A2CF10C009FEC92 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A928132A2CF10C009FEC92 /* AlertHelper.swift */; };
 		36C29EFE2A2F55C50070A899 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C29EFD2A2F55C50070A899 /* SignupViewController.swift */; };
 		36CABDD42A284FCE006814AA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CABDD32A284FCE006814AA /* UIView+Extensions.swift */; };
@@ -27,7 +33,9 @@
 
 /* Begin PBXFileReference section */
 		3616C09A2A278CF6006B6C1B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		361B8BD42A4743BB0060F4AB /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		367E620B2A2970F900049BC3 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		3693340E2A534687008CADB2 /* DiabetesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabetesViewController.swift; sourceTree = "<group>"; };
 		369491152A26F5A7006E5EC5 /* EyeGlucose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeGlucose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369491182A26F5A7006E5EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3694911A2A26F5A7006E5EC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,10 @@
 		3694912E2A271057006E5EC5 /* ONBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONBoardingViewController.swift; sourceTree = "<group>"; };
 		369491332A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		369491362A274D37006E5EC5 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		3698FE8F2A53CD4D008ECC18 /* BMI_Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_Brain.swift; sourceTree = "<group>"; };
+		3698FE912A53CD7F008ECC18 /* bmi_category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi_category.swift; sourceTree = "<group>"; };
+		3698FE932A53CDCF008ECC18 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		3698FE952A53CE31008ECC18 /* BMIResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIResultViewController.swift; sourceTree = "<group>"; };
 		36A928132A2CF10C009FEC92 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		36C29EFD2A2F55C50070A899 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		36CABDD32A284FCE006814AA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -65,6 +77,40 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		361B8BD12A4743280060F4AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				361B8BD32A47437E0060F4AB /* Animating */,
+				361B8BD22A4743650060F4AB /* Validation */,
+				36A928122A2CF0F4009FEC92 /* Alert Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		361B8BD22A4743650060F4AB /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				367E620B2A2970F900049BC3 /* Validator.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		361B8BD32A47437E0060F4AB /* Animating */ = {
+			isa = PBXGroup;
+			children = (
+				361B8BD42A4743BB0060F4AB /* Animate.swift */,
+			);
+			path = Animating;
+			sourceTree = "<group>";
+		};
+		368C7C0E2A51339800B820EC /* Check Diabetes */ = {
+			isa = PBXGroup;
+			children = (
+				3693340E2A534687008CADB2 /* DiabetesViewController.swift */,
+			);
+			path = "Check Diabetes";
+			sourceTree = "<group>";
+		};
 		3694910C2A26F5A7006E5EC5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				36CABDD22A284EE1006814AA /* Extensions */,
+				361B8BD12A4743280060F4AB /* Classes */,
 				369491302A2711DE006E5EC5 /* Views */,
 				3694912C2A27101F006E5EC5 /* Controller  */,
 				369491352A274D00006E5EC5 /* Moudels */,
@@ -101,7 +148,8 @@
 		3694912C2A27101F006E5EC5 /* Controller  */ = {
 			isa = PBXGroup;
 			children = (
-				36A928122A2CF0F4009FEC92 /* Alert Controller */,
+				3698FE982A53CE6D008ECC18 /* BMI */,
+				368C7C0E2A51339800B820EC /* Check Diabetes */,
 				36CABDDD2A285838006814AA /* Home */,
 				36CABDD82A2851E2006814AA /* Authorization */,
 				3694912D2A271031006E5EC5 /* ONBoarding */,
@@ -144,10 +192,36 @@
 		369491352A274D00006E5EC5 /* Moudels */ = {
 			isa = PBXGroup;
 			children = (
-				367E620B2A2970F900049BC3 /* Validator.swift */,
 				369491362A274D37006E5EC5 /* OnboardingSlide.swift */,
+				3698FE8F2A53CD4D008ECC18 /* BMI_Brain.swift */,
+				3698FE912A53CD7F008ECC18 /* bmi_category.swift */,
 			);
 			path = Moudels;
+			sourceTree = "<group>";
+		};
+		3698FE662A53AA57008ECC18 /* BMI Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3698FE932A53CDCF008ECC18 /* BMIViewController.swift */,
+			);
+			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		3698FE972A53CE41008ECC18 /* BMI Result */ = {
+			isa = PBXGroup;
+			children = (
+				3698FE952A53CE31008ECC18 /* BMIResultViewController.swift */,
+			);
+			path = "BMI Result";
+			sourceTree = "<group>";
+		};
+		3698FE982A53CE6D008ECC18 /* BMI */ = {
+			isa = PBXGroup;
+			children = (
+				3698FE662A53AA57008ECC18 /* BMI Calculator */,
+				3698FE972A53CE41008ECC18 /* BMI Result */,
+			);
+			path = BMI;
 			sourceTree = "<group>";
 		};
 		36A928122A2CF0F4009FEC92 /* Alert Controller */ = {
@@ -264,15 +338,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3698FE922A53CD7F008ECC18 /* bmi_category.swift in Sources */,
+				3698FE942A53CDCF008ECC18 /* BMIViewController.swift in Sources */,
 				36A928142A2CF10C009FEC92 /* AlertHelper.swift in Sources */,
+				3698FE902A53CD4D008ECC18 /* BMI_Brain.swift in Sources */,
+				3698FE962A53CE31008ECC18 /* BMIResultViewController.swift in Sources */,
 				36DDF5DF2A2F8242009A4577 /* UIViewController+Extension.swift in Sources */,
 				36CABDD42A284FCE006814AA /* UIView+Extensions.swift in Sources */,
 				36CABDD62A285013006814AA /* UIButton+Extensions.swift in Sources */,
 				3616C09B2A278CF6006B6C1B /* LoginViewController.swift in Sources */,
 				369491372A274D37006E5EC5 /* OnboardingSlide.swift in Sources */,
+				3693340F2A534687008CADB2 /* DiabetesViewController.swift in Sources */,
 				369491192A26F5A7006E5EC5 /* AppDelegate.swift in Sources */,
 				36C29EFE2A2F55C50070A899 /* SignupViewController.swift in Sources */,
 				367E620C2A2970F900049BC3 /* Validator.swift in Sources */,
+				361B8BD52A4743BB0060F4AB /* Animate.swift in Sources */,
 				36CABDDF2A285849006814AA /* HomeViewController.swift in Sources */,
 				3694911B2A26F5A7006E5EC5 /* SceneDelegate.swift in Sources */,
 				3694912F2A271057006E5EC5 /* ONBoardingViewController.swift in Sources */,
