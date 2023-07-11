@@ -32,7 +32,7 @@ class SignupViewController: UIViewController {
      let signupStaus =   valditor.goSignUp(name: nameTxf.text ?? "", id: idTxf.text ?? "", email: emailTxf.text ?? "", phone: phoneTxf.text ?? "", password: passwordTxf.text ?? "", confirmPassword: confirmPasswordTxf.text ?? "")
         if signupStaus {
             // succsess signup
-            let controller = HomeViewController.instantiate()
+            let controller = HomeVC.instantiate()
             present(controller, animated: true,completion: nil)
         }else{
            // faild to signUp

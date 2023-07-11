@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 extension UIView {
-    @IBInspectable var cornerRadius :CGFloat {
+    @IBInspectable var viewCornerRadius :CGFloat {
         get{
-            return self.cornerRadius
+            return self.viewCornerRadius
             
         }
         set{
@@ -18,4 +18,7 @@ extension UIView {
             
         }
     }
+    
 }
+
+

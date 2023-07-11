@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
         if loginStatus
         {
             // succsess login
-            let controller = HomeViewController.instantiate()
+            let controller = HomeVC.instantiate()
             present(controller, animated: true,completion: nil)
             
         }

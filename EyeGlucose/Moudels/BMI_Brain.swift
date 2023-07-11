@@ -16,7 +16,7 @@ struct BMI_Brain {
     
     var advice = ""
            
-    var color = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
+    var color = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
     
     
     func getbmivalue() -> String{

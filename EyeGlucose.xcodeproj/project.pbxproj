@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3616C09B2A278CF6006B6C1B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616C09A2A278CF6006B6C1B /* LoginViewController.swift */; };
-		361B8BD52A4743BB0060F4AB /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B8BD42A4743BB0060F4AB /* Animate.swift */; };
 		367E620C2A2970F900049BC3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E620B2A2970F900049BC3 /* Validator.swift */; };
+		368555902A570C0100959E27 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3685558E2A570C0100959E27 /* HomeTableViewCell.swift */; };
+		368555912A570C0100959E27 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3685558F2A570C0100959E27 /* HomeTableViewCell.xib */; };
+		368555932A570E7D00959E27 /* HomeSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368555922A570E7D00959E27 /* HomeSlide.swift */; };
 		3693340F2A534687008CADB2 /* DiabetesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693340E2A534687008CADB2 /* DiabetesViewController.swift */; };
 		369491192A26F5A7006E5EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369491182A26F5A7006E5EC5 /* AppDelegate.swift */; };
 		3694911B2A26F5A7006E5EC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694911A2A26F5A7006E5EC5 /* SceneDelegate.swift */; };
@@ -23,18 +25,26 @@
 		3698FE922A53CD7F008ECC18 /* bmi_category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698FE912A53CD7F008ECC18 /* bmi_category.swift */; };
 		3698FE942A53CDCF008ECC18 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698FE932A53CDCF008ECC18 /* BMIViewController.swift */; };
 		3698FE962A53CE31008ECC18 /* BMIResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698FE952A53CE31008ECC18 /* BMIResultViewController.swift */; };
+		36A123402A59248000098796 /* BloodPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1233F2A59248000098796 /* BloodPressureViewController.swift */; };
+		36A123442A592BCF00098796 /* BloodPressureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A123422A592BCF00098796 /* BloodPressureTableViewCell.swift */; };
+		36A123452A592BCF00098796 /* BloodPressureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A123432A592BCF00098796 /* BloodPressureTableViewCell.xib */; };
+		36A123472A59336800098796 /* Pressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A123462A59336800098796 /* Pressure.swift */; };
 		36A928142A2CF10C009FEC92 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A928132A2CF10C009FEC92 /* AlertHelper.swift */; };
 		36C29EFE2A2F55C50070A899 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C29EFD2A2F55C50070A899 /* SignupViewController.swift */; };
+		36C7762C2A5BAD140027AE3D /* NewPressureRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C7762B2A5BAD140027AE3D /* NewPressureRecordViewController.swift */; };
 		36CABDD42A284FCE006814AA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CABDD32A284FCE006814AA /* UIView+Extensions.swift */; };
 		36CABDD62A285013006814AA /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CABDD52A285013006814AA /* UIButton+Extensions.swift */; };
-		36CABDDF2A285849006814AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CABDDE2A285849006814AA /* HomeViewController.swift */; };
 		36DDF5DF2A2F8242009A4577 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDF5DE2A2F8242009A4577 /* UIViewController+Extension.swift */; };
+		36FDAFE72A561C2800443239 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDAFE62A561C2800443239 /* HomeVC.swift */; };
+		36FDB00D2A565CF000443239 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDB00C2A565CF000443239 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3616C09A2A278CF6006B6C1B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		361B8BD42A4743BB0060F4AB /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		367E620B2A2970F900049BC3 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		3685558E2A570C0100959E27 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		3685558F2A570C0100959E27 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		368555922A570E7D00959E27 /* HomeSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSlide.swift; sourceTree = "<group>"; };
 		3693340E2A534687008CADB2 /* DiabetesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabetesViewController.swift; sourceTree = "<group>"; };
 		369491152A26F5A7006E5EC5 /* EyeGlucose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeGlucose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369491182A26F5A7006E5EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,12 +60,18 @@
 		3698FE912A53CD7F008ECC18 /* bmi_category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi_category.swift; sourceTree = "<group>"; };
 		3698FE932A53CDCF008ECC18 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 		3698FE952A53CE31008ECC18 /* BMIResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIResultViewController.swift; sourceTree = "<group>"; };
+		36A1233F2A59248000098796 /* BloodPressureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureViewController.swift; sourceTree = "<group>"; };
+		36A123422A592BCF00098796 /* BloodPressureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureTableViewCell.swift; sourceTree = "<group>"; };
+		36A123432A592BCF00098796 /* BloodPressureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodPressureTableViewCell.xib; sourceTree = "<group>"; };
+		36A123462A59336800098796 /* Pressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pressure.swift; sourceTree = "<group>"; };
 		36A928132A2CF10C009FEC92 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		36C29EFD2A2F55C50070A899 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		36C7762B2A5BAD140027AE3D /* NewPressureRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPressureRecordViewController.swift; sourceTree = "<group>"; };
 		36CABDD32A284FCE006814AA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		36CABDD52A285013006814AA /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
-		36CABDDE2A285849006814AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		36DDF5DE2A2F8242009A4577 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		36FDAFE62A561C2800443239 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		36FDB00C2A565CF000443239 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +96,6 @@
 		361B8BD12A4743280060F4AB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				361B8BD32A47437E0060F4AB /* Animating */,
 				361B8BD22A4743650060F4AB /* Validation */,
 				36A928122A2CF0F4009FEC92 /* Alert Controller */,
 			);
@@ -95,12 +110,31 @@
 			path = Validation;
 			sourceTree = "<group>";
 		};
-		361B8BD32A47437E0060F4AB /* Animating */ = {
+		366A4B222A5D1DC100243998 /* Blood pressure */ = {
 			isa = PBXGroup;
 			children = (
-				361B8BD42A4743BB0060F4AB /* Animate.swift */,
+				36A1233E2A59244E00098796 /* All recordes */,
+				36C7762A2A5BACC00027AE3D /* New Record */,
 			);
-			path = Animating;
+			path = "Blood pressure";
+			sourceTree = "<group>";
+		};
+		3685558C2A570BB000959E27 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				36A123412A592B8400098796 /* Blood PressureTableView */,
+				3685558D2A570BBF00959E27 /* HomeTableView */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		3685558D2A570BBF00959E27 /* HomeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3685558E2A570C0100959E27 /* HomeTableViewCell.swift */,
+				3685558F2A570C0100959E27 /* HomeTableViewCell.xib */,
+			);
+			path = HomeTableView;
 			sourceTree = "<group>";
 		};
 		368C7C0E2A51339800B820EC /* Check Diabetes */ = {
@@ -133,7 +167,7 @@
 				36CABDD22A284EE1006814AA /* Extensions */,
 				361B8BD12A4743280060F4AB /* Classes */,
 				369491302A2711DE006E5EC5 /* Views */,
-				3694912C2A27101F006E5EC5 /* Controller  */,
+				3694912C2A27101F006E5EC5 /* Controllers */,
 				369491352A274D00006E5EC5 /* Moudels */,
 				369491182A26F5A7006E5EC5 /* AppDelegate.swift */,
 				3694911A2A26F5A7006E5EC5 /* SceneDelegate.swift */,
@@ -145,16 +179,17 @@
 			path = EyeGlucose;
 			sourceTree = "<group>";
 		};
-		3694912C2A27101F006E5EC5 /* Controller  */ = {
+		3694912C2A27101F006E5EC5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				366A4B222A5D1DC100243998 /* Blood pressure */,
 				3698FE982A53CE6D008ECC18 /* BMI */,
 				368C7C0E2A51339800B820EC /* Check Diabetes */,
 				36CABDDD2A285838006814AA /* Home */,
 				36CABDD82A2851E2006814AA /* Authorization */,
 				3694912D2A271031006E5EC5 /* ONBoarding */,
 			);
-			path = "Controller ";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		3694912D2A271031006E5EC5 /* ONBoarding */ = {
@@ -168,6 +203,7 @@
 		369491302A2711DE006E5EC5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3685558C2A570BB000959E27 /* TableViews */,
 				369491312A2711ED006E5EC5 /* CollectionViews */,
 			);
 			path = Views;
@@ -195,6 +231,8 @@
 				369491362A274D37006E5EC5 /* OnboardingSlide.swift */,
 				3698FE8F2A53CD4D008ECC18 /* BMI_Brain.swift */,
 				3698FE912A53CD7F008ECC18 /* bmi_category.swift */,
+				368555922A570E7D00959E27 /* HomeSlide.swift */,
+				36A123462A59336800098796 /* Pressure.swift */,
 			);
 			path = Moudels;
 			sourceTree = "<group>";
@@ -224,6 +262,23 @@
 			path = BMI;
 			sourceTree = "<group>";
 		};
+		36A1233E2A59244E00098796 /* All recordes */ = {
+			isa = PBXGroup;
+			children = (
+				36A1233F2A59248000098796 /* BloodPressureViewController.swift */,
+			);
+			path = "All recordes";
+			sourceTree = "<group>";
+		};
+		36A123412A592B8400098796 /* Blood PressureTableView */ = {
+			isa = PBXGroup;
+			children = (
+				36A123422A592BCF00098796 /* BloodPressureTableViewCell.swift */,
+				36A123432A592BCF00098796 /* BloodPressureTableViewCell.xib */,
+			);
+			path = "Blood PressureTableView";
+			sourceTree = "<group>";
+		};
 		36A928122A2CF0F4009FEC92 /* Alert Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,12 +287,21 @@
 			path = "Alert Controller";
 			sourceTree = "<group>";
 		};
+		36C7762A2A5BACC00027AE3D /* New Record */ = {
+			isa = PBXGroup;
+			children = (
+				36C7762B2A5BAD140027AE3D /* NewPressureRecordViewController.swift */,
+			);
+			path = "New Record";
+			sourceTree = "<group>";
+		};
 		36CABDD22A284EE1006814AA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				36CABDD32A284FCE006814AA /* UIView+Extensions.swift */,
 				36CABDD52A285013006814AA /* UIButton+Extensions.swift */,
 				36DDF5DE2A2F8242009A4577 /* UIViewController+Extension.swift */,
+				36FDB00C2A565CF000443239 /* UIImage+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -262,7 +326,7 @@
 		36CABDDD2A285838006814AA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				36CABDDE2A285849006814AA /* HomeViewController.swift */,
+				36FDAFE62A561C2800443239 /* HomeVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -325,8 +389,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A123452A592BCF00098796 /* BloodPressureTableViewCell.xib in Resources */,
 				369491252A26F5AA006E5EC5 /* LaunchScreen.storyboard in Resources */,
 				369491222A26F5AA006E5EC5 /* Assets.xcassets in Resources */,
+				368555912A570C0100959E27 /* HomeTableViewCell.xib in Resources */,
 				369491202A26F5A7006E5EC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +405,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3698FE922A53CD7F008ECC18 /* bmi_category.swift in Sources */,
+				368555932A570E7D00959E27 /* HomeSlide.swift in Sources */,
+				36A123472A59336800098796 /* Pressure.swift in Sources */,
+				36FDAFE72A561C2800443239 /* HomeVC.swift in Sources */,
 				3698FE942A53CDCF008ECC18 /* BMIViewController.swift in Sources */,
+				36A123442A592BCF00098796 /* BloodPressureTableViewCell.swift in Sources */,
+				36A123402A59248000098796 /* BloodPressureViewController.swift in Sources */,
 				36A928142A2CF10C009FEC92 /* AlertHelper.swift in Sources */,
 				3698FE902A53CD4D008ECC18 /* BMI_Brain.swift in Sources */,
 				3698FE962A53CE31008ECC18 /* BMIResultViewController.swift in Sources */,
@@ -350,10 +421,11 @@
 				369491372A274D37006E5EC5 /* OnboardingSlide.swift in Sources */,
 				3693340F2A534687008CADB2 /* DiabetesViewController.swift in Sources */,
 				369491192A26F5A7006E5EC5 /* AppDelegate.swift in Sources */,
+				36C7762C2A5BAD140027AE3D /* NewPressureRecordViewController.swift in Sources */,
 				36C29EFE2A2F55C50070A899 /* SignupViewController.swift in Sources */,
 				367E620C2A2970F900049BC3 /* Validator.swift in Sources */,
-				361B8BD52A4743BB0060F4AB /* Animate.swift in Sources */,
-				36CABDDF2A285849006814AA /* HomeViewController.swift in Sources */,
+				36FDB00D2A565CF000443239 /* UIImage+Extension.swift in Sources */,
+				368555902A570C0100959E27 /* HomeTableViewCell.swift in Sources */,
 				3694911B2A26F5A7006E5EC5 /* SceneDelegate.swift in Sources */,
 				3694912F2A271057006E5EC5 /* ONBoardingViewController.swift in Sources */,
 				369491342A27123C006E5EC5 /* OnBoardingCollectionViewCell.swift in Sources */,

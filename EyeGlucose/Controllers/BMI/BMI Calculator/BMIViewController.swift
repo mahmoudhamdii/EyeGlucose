@@ -78,7 +78,7 @@ class BMIViewController: UIViewController {
       let heightinm = String(format: "%.2f", sender.value)
         
 
-        height.text = "\(heightinm)cm"
+        height.text = "\(heightinm)m"
         
     }
     
